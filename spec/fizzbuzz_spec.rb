@@ -13,7 +13,13 @@ describe "buzz" do
 end
 
 describe "number" do
-  it "returns number when passed other" do
+  it "returns number when passed other number" do
     expect(fizzbuzz(4)).to eq 4
+  end
+end
+
+describe "fizzbuzz" do
+  it "returns 'fizzbuzz' when passed 15" do
+    expect(fizzbuzz(15)).to eq "fizzbuzz"
   end
 end
